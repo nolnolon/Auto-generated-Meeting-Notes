@@ -18,7 +18,7 @@ Current system requirements and their implementation:
 | Containerised                                                            | Dockerfile                                                     |
 
 
-## How to set up locally?
+## Setting it up locally
 ```
 python -m venv .venv
 source .venv/bin/activate         # Windows: .venv\Scripts\activate
