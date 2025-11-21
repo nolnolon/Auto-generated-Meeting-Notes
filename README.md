@@ -7,6 +7,8 @@ Easy use instructions, fast run time, and consistent output formatting.
 - Summarizes the meeting in under 200 words.
 - Records *decisions* and *action items* with any associated details. 
 
+
+Current system requirements and their implementation: 
 | **System Requirements**                                                  | **Features**                                                   |
 | ------------------------------------------------------------------------ | -------------------------------------------------------------- |
 | Ensure that the model always outputs notes in the same consistent format | pydantic schemas (`MeetingSummary`)                            |
@@ -15,7 +17,7 @@ Easy use instructions, fast run time, and consistent output formatting.
 | Provide a programmatic interface (API) for other services to call        | FastAPI server                                                 |
 | Should be possible to run in a browser (browser frontends)               | CORS                                                           |
 | Local                                                                    | Simple virtual environment setup + `uvicorn` hot reload        |
-| Containerised                                                            | Dockerfile with environment variables + exposed ports          |
+| Containerised                                                            | Dockerfile                                                     |
 
 
 ## How to set up locally?
