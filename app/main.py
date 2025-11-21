@@ -75,9 +75,8 @@ async def summarize_from_audio(file: UploadFile = File(..., description="Audio f
 
         audio_file = BytesIO(audio_bytes)
         audio_file.name = file.filename
-        transcript = transcribe_audio(audio_file)
+        transcript = transcribe_audio(audio_file) 
         summary = summarize_transcript(transcript)
-
         return summary
       
     except HTTPException:
