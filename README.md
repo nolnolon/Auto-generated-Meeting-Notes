@@ -1,7 +1,5 @@
 # Auto-generated Meeting Notes with LLM
 
-A ready-to-use service suitable for local machines. 
-Easy use instructions, fast run time, and consistent output formatting. 
 - Accepts audio files OR raw transcripts
 - Transcribes audio with OpenAI's audio API
 - Summarizes the meeting in under 200 words.
