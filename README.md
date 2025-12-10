@@ -6,7 +6,7 @@
 - Records *decisions* and *action items* with any associated details. 
 
 
-Current system requirements and their implementation: 
+Implementation summary: 
 | **System Requirements**                                                  | **Features**                                                   |
 | ------------------------------------------------------------------------ | -------------------------------------------------------------- |
 | Ensure that the model always outputs notes in the same consistent format | pydantic schemas (`MeetingSummary`)                            |
